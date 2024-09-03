@@ -1,0 +1,11 @@
+<mjml>
+    <mj-body>
+        <mj-section background-color="#F1F6F9" padding="50px 0 8px 0">
+            <mj-column width="100%">
+                <mj-image padding="0" width="219px" height="27px" src="http://localhost:8000/assets/logos/superset-logo.svg" />
+            </mj-column>
+            <mj-spacer height="30px" />
+            <mj-include path="navbar.mjml" />
+        </mj-section>
+    </mj-body>
+</mjml>

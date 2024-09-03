@@ -1,0 +1,55 @@
+<mjml>
+    <mj-head>
+        <mj-preview>Добрый день! Вы приобрели лицензию на использование Суперсет ТА.</mj-preview>
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat"
+        />
+        <mj-attributes>
+            <mj-all font-family="Montserrat" />
+            <mj-text padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .heading {
+                font-family: 'Montserrat', 'Verdana', sans-serif;
+                font-weight: 600;
+                font-size: 18px !important;
+                line-height: 18px !important;
+            }
+            .text {
+                font-family: 'Montserrat', 'Verdana', sans-serif;
+                font-weight: 300;
+                font-size: 14px !important;
+                line-height: 14px !important;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:480px) {
+                .heading {
+                    font-size: 24px !important;
+                    line-height: 32px !important;
+                }
+                .text {
+                    font-size: 16px !important;
+                    line-height: 26px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-include path="header.mjml" />
+        <mj-section background-color="#FFFFFF" padding="50px 46px" full-width="full-width">
+            <mj-column width="100%">
+                <mj-text>
+                    <span class="heading">Добрый день!</span>
+                </mj-text>
+                <mj-spacer height="40px" />
+                <mj-text>
+                    <span class="text">Вы приобрели лицензию на использование Суперсет ТА.</span>
+                </mj-text>
+            </mj-column>
+            <mj-spacer height="20px" />
+            <mj-include path="instruction.mjml" />
+            <mj-spacer height="40px" />
+            <mj-include path="contacts.mjml" />
+        </mj-section>
+    </mj-body>
+</mjml>

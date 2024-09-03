@@ -1,0 +1,145 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .highlighted-text {
+                background-color: #C6FF0B !important;
+                font-weight: 700 !important;
+                line-height: 16px !important;
+            }
+            .purple-text {
+                color: #593DE9 !important;
+            }
+            .default-text {
+                font-family: 'Montserrat', 'Verdana', sans-serif !important;
+                font-weight: 400;
+                font-size: 10px !important;
+                line-height: 14px !important;
+                color: #000000;
+            }
+            .card {
+                width: 233px !important;
+                background-color: #F1F6F9;
+                border-radius: 20px;
+                padding: 22px 11px 0 32px;
+                box-sizing: border-box;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:480px) {
+                .default-text {
+                    line-height: 20px !important;
+                }
+                .card {
+                    padding: 35px 34px !important;
+                    width: 267px;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="547px">
+        <mj-section padding="0 0 10px 0">
+            <mj-column width="267px" css-class="card">
+                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/download-icon.svg" padding="0" align="left"/>
+                <mj-spacer height="10px" />
+                <mj-text height="260px">
+                    <span class="default-text">
+                        Для того, чтобы <span class="highlighted-text">скачать</span> Суперсет ТА необходимо выполнить следующую команду:
+                    </span>
+                    <div style="height: 20px;"></div>
+                    <span class="default-text purple-text">
+                        git clone https://[TOKEN]@github.com/TechAudit-BI/[CLIENT-REPO]
+                    </span>
+                </mj-text>
+            </mj-column>
+            <mj-column width="13px">
+                <mj-spacer width="13px" />
+            </mj-column>
+            <mj-column width="267px" css-class="card">
+                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/unzip-icon.svg" padding="0" align="left"/>
+                <mj-spacer height="10px" />
+                <mj-text height="260px">
+                    <span class="default-text">
+                        Для того, чтобы <span class="highlighted-text">развернуть</span> Суперсет ТА в docker нужно выполнить следующие команды
+                        в основной папке Суперсет ТА:
+                    </span>
+                    <div style="height: 20px"></div>
+                    <span class="default-text">
+                        1. <span class="default-text purple-text">docker build . -t &lt;название-образа&gt;:&lt;тег&gt;</span><br />
+                        2. В файле <span class="default-text purple-text">docker-compose-non-dev.yml</span> в переменной <span class="purple-text">superset-image</span> нужно указать те же название образа и тег,
+                        что и в предыдущей команде<br />
+                        3. <span class="default-text purple-text">docker compose -f docker-compose-non-dev.yml up</span>
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 10px 0">
+            <mj-column width="267px" css-class="card">
+                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/clock-icon.svg" padding="0" align="left"/>
+                <mj-spacer height="10px" />
+                <mj-text height="80px">
+                    <span class="default-text">
+                        Токен доступа к репозиторию действует <span class="highlighted-text">30 дней</span>.
+                        Вы можете запросить новый токен при необходимости.
+                    </span>
+                </mj-text>
+            </mj-column>
+            <mj-column width="13px">
+                <mj-spacer width="13px" />
+            </mj-column>
+            <mj-column width="267px" css-class="card">
+                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/device-icon.svg" padding="0" align="left"/>
+                <mj-spacer height="10px" />
+                <mj-text height="80px" >
+                    <span class="default-text">
+                        <span class="default-text highlighted-text">Рекомендации</span> по вычислительным ресурсам для сервера до 150 пользователей:
+                        4 CPU / 16 Gb RAM / 50-100 Gb SSD
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0">
+            <mj-column width="547px" css-class="card">
+                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/support-icon.svg" padding="0" align="left"/>
+                <mj-spacer height="10px" />
+                <mj-text>
+                    <span class="default-text">
+                        В течение <span class="highlighted-text">трёх месяцев вам доступна наша линия поддержки,</span> где вы можете оставлять вопросы или сообщить об ошибках в работе платформы.
+                    </span>
+                    <div style="height: 20px"></div>
+                    <span class="default-text">
+                        Попасть в неё можно по ссылке: <a target="_blank" href="https://techaudit.kaiten.ru/sd" style="color: #593DE9;">https://techaudit.kaiten.ru/sd</a>,<br />
+                        авторизовавшись по почте в домене enco72.ru.
+                    </span>
+                    <div style="height: 20px"></div>
+                    <span class="default-text">
+                        В дальнейшем доступ к линии поддержки осуществляется в рамках договора поддержки.
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-wrapper padding="10px 0 0 0">
+            <mj-section background-color="#F1F6F9" border-radius="20px" padding="12px 32px">
+                <mj-column width="35px">
+                    <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/info-icon.svg" padding="0" align="left"/>
+                </mj-column>
+                <mj-column width="10px">
+                    <mj-spacer width="10px" />
+                </mj-column>
+                <mj-column width="438px">
+                    <mj-text>
+                   <span class="default-text">
+                       Также к письму приложены<br />
+                       руководства пользователя и администратора Суперсет ТА.
+                   </span>
+                </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
