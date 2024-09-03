@@ -42,7 +42,7 @@
     <mj-body width="547px">
         <mj-section padding="0 0 10px 0">
             <mj-column width="267px" css-class="card">
-                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/download-icon.svg" padding="0" align="left"/>
+                <mj-image width="35px" height="35px" src="https://raw.githubusercontent.com/TechAudit-BI/emails/9f0f386d249d80c4d042f5bb8b7722179ebeddef/assets/icons/download-icon.svg" padding="0" align="left"/>
                 <mj-spacer height="10px" />
                 <mj-text height="260px">
                     <span class="default-text">
@@ -58,7 +58,7 @@
                 <mj-spacer width="13px" />
             </mj-column>
             <mj-column width="267px" css-class="card">
-                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/unzip-icon.svg" padding="0" align="left"/>
+                <mj-image width="35px" height="35px" src="https://raw.githubusercontent.com/TechAudit-BI/emails/9f0f386d249d80c4d042f5bb8b7722179ebeddef/assets/icons/unzip-icon.svg" padding="0" align="left"/>
                 <mj-spacer height="10px" />
                 <mj-text height="260px">
                     <span class="default-text">
@@ -78,7 +78,7 @@
 
         <mj-section padding="0 0 10px 0">
             <mj-column width="267px" css-class="card">
-                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/clock-icon.svg" padding="0" align="left"/>
+                <mj-image width="35px" height="35px" src="https://raw.githubusercontent.com/TechAudit-BI/emails/9f0f386d249d80c4d042f5bb8b7722179ebeddef/assets/icons/clock-icon.svg" padding="0" align="left"/>
                 <mj-spacer height="10px" />
                 <mj-text height="80px">
                     <span class="default-text">
@@ -91,7 +91,7 @@
                 <mj-spacer width="13px" />
             </mj-column>
             <mj-column width="267px" css-class="card">
-                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/device-icon.svg" padding="0" align="left"/>
+                <mj-image width="35px" height="35px" src="https://raw.githubusercontent.com/TechAudit-BI/emails/9f0f386d249d80c4d042f5bb8b7722179ebeddef/assets/icons/device-icon.svg" padding="0" align="left"/>
                 <mj-spacer height="10px" />
                 <mj-text height="80px" >
                     <span class="default-text">
@@ -104,7 +104,7 @@
 
         <mj-section padding="0">
             <mj-column width="547px" css-class="card">
-                <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/support-icon.svg" padding="0" align="left"/>
+                <mj-image width="35px" height="35px" src="https://raw.githubusercontent.com/TechAudit-BI/emails/9f0f386d249d80c4d042f5bb8b7722179ebeddef/assets/icons/support-icon.svg" padding="0" align="left"/>
                 <mj-spacer height="10px" />
                 <mj-text>
                     <span class="default-text">
@@ -126,7 +126,7 @@
         <mj-wrapper padding="10px 0 0 0">
             <mj-section background-color="#F1F6F9" border-radius="20px" padding="12px 32px">
                 <mj-column width="35px">
-                    <mj-image width="35px" height="35px" src="http://localhost:8000/assets/icons/info-icon.svg" padding="0" align="left"/>
+                    <mj-image width="35px" height="35px" src="https://raw.githubusercontent.com/TechAudit-BI/emails/9f0f386d249d80c4d042f5bb8b7722179ebeddef/assets/icons/info-icon.svg" padding="0" align="left"/>
                 </mj-column>
                 <mj-column width="10px">
                     <mj-spacer width="10px" />

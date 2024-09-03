@@ -35,7 +35,7 @@
         </mj-style>
     </mj-head>
     <mj-body width="640px">
-        <mj-include path="header.mjml" />
+        <mj-include path="components/header.mjml" />
         <mj-section background-color="#FFFFFF" padding="50px 46px" full-width="full-width">
             <mj-column width="100%">
                 <mj-text>
@@ -47,9 +47,9 @@
                 </mj-text>
             </mj-column>
             <mj-spacer height="20px" />
-            <mj-include path="instruction.mjml" />
+            <mj-include path="components/instruction.mjml" />
             <mj-spacer height="40px" />
-            <mj-include path="contacts.mjml" />
+            <mj-include path="components/contacts.mjml" />
         </mj-section>
     </mj-body>
 </mjml>
