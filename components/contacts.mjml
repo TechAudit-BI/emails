@@ -17,13 +17,13 @@
         <mj-style>
             @media only screen and (min-width:480px) {
                 .section-padding {
-                    padding: 0 0 0 26px !important;
+                    padding: 0 0 33px 26px !important;
                 }
             }
         </mj-style>
     </mj-head>
     <mj-body>
-        <mj-section css-class="section-padding" padding="0">
+        <mj-section css-class="section-padding" padding="0" background-color="#FFFFFF">
             <mj-column>
                 <mj-text css-class="text"><span>Евгений Целиков</span></mj-text>
                 <mj-text css-class="text"><span>Product Owner Суперсет ТА</span></mj-text>
