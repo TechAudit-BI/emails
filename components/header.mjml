@@ -2,7 +2,7 @@
     <mj-body>
         <mj-section background-color="#F1F6F9" padding="54px 0 8px 0">
             <mj-column width="100%">
-                <mj-image padding="0" width="219px" height="27px" src="https://raw.githubusercontent.com/TechAudit-BI/emails/9f0f386d249d80c4d042f5bb8b7722179ebeddef/assets/logos/superset-logo.png" />
+                <mj-image padding="0" width="219px" height="27px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/logos/superset-logo.png?raw=true" />
             </mj-column>
             <mj-spacer height="27px" />
             <mj-include path="navbar.mjml" />
