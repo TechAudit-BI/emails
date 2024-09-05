@@ -58,7 +58,7 @@
                         Для того, чтобы <span class="highlighted-text">скачать</span> Суперсет ТА необходимо выполнить следующую команду:
                     </span>
                     <div style="width: 90%; height: 150px; background-color: #FFFFFF; border-radius: 20px; padding: 10px" class="default-text purple-text">
-                            git clone <a href="#" style="text-decoration: none; color: #593DE9; cursor: default">https://[TOKEN]@github.com/TechAudit-BI/[CLIENT-REPO]</a>
+                            git clone https://[TOKEN]@github&#46;com/TechAudit-BI/[CLIENT-REPO]
                     </div>
                 </mj-text>
             </mj-column>
