@@ -147,7 +147,7 @@
                 <mj-column width="10px">
                     <mj-spacer height="10px" />
                 </mj-column>
-                <mj-column width="434px">
+                <mj-column width="90%">
                     <mj-text>
                         <span class="default-text">Также к письму приложены<br />
                             руководства пользователя и администратора Суперсет ТА.
