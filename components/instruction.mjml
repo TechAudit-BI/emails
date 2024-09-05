@@ -23,8 +23,11 @@
                 width: 267px !important;
                 background-color: #F1F6F9;
                 border-radius: 20px;
-                padding: 34px 32px;
+                padding: 34px 32px 18px;
                 box-sizing: border-box;
+            }
+            .card-with-instructions {
+                padding: 34px 32px !important;
             }
             .card-with-small-padding {
                 padding: 34px 32px;
@@ -34,6 +37,7 @@
             }
             .stack-columns div img{
                 width: 35px !important;
+                height: 35px !important;
             }
         </mj-style>
         <mj-style>
@@ -50,7 +54,7 @@
 
     <mj-body width="547px" background-color="#FFFFFF">
         <mj-section padding="0 0 10px 0" background-color="#FFFFFF">
-            <mj-column width="267px" css-class="card">
+            <mj-column width="267px" css-class="card card-with-instructions">
                 <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/download-icon.png?raw=true" padding="0" align="left" alt="Как загрузить Суперсет ТА"/>
                 <mj-spacer height="10px" />
                 <mj-text height="230px">
@@ -58,14 +62,14 @@
                         Для того, чтобы <span class="highlighted-text">скачать</span> Суперсет ТА необходимо выполнить следующую команду:
                     </span>
                     <div style="width: 90%; height: 150px; background-color: #FFFFFF; border-radius: 20px; padding: 10px" class="default-text purple-text">
-                        <span>git clone <span>https</span>://<span>[TOKEN]</span>@<span>github</span>.com<span>/TechAudit-BI/[CLIENT-REPO]</span>
+                        <span>git clone </span><span>https</span>://<span>[TOKEN]</span>@<span>github</span>.com<span>/TechAudit-BI/[CLIENT-REPO]</span>
                     </div>
                 </mj-text>
             </mj-column>
-            <mj-column width="13px">
-                <mj-spacer width="13px" />
+            <mj-column width="10px">
+                <mj-spacer width="10px" height="10px"/>
             </mj-column>
-            <mj-column width="267px" css-class="card">
+            <mj-column width="267px" css-class="card card-with-instructions">
                 <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/unzip-icon.png?raw=true" padding="0" align="left" alt="Как развернуть Суперсет ТА"/>
                 <mj-spacer height="10px" />
                 <mj-text height="230px">
@@ -94,20 +98,20 @@
             <mj-column width="267px" css-class="card">
                 <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/clock-icon.png?raw=true" padding="0" align="left" alt="Сроки"/>
                 <mj-spacer height="10px" />
-                <mj-text height="80px">
+                <mj-text height="60px">
                     <span class="default-text">
                         Токен доступа к репозиторию действует <span class="highlighted-text">30 дней</span>.
                         Вы можете запросить новый токен при необходимости.
                     </span>
                 </mj-text>
             </mj-column>
-            <mj-column width="13px">
-                <mj-spacer width="13px" />
+            <mj-column width="10px">
+                <mj-spacer width="10px" height="10px"/>
             </mj-column>
             <mj-column width="267px" css-class="card">
                 <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/device-icon.png?raw=true" alt="Технические требования" padding="0" align="left"/>
                 <mj-spacer height="10px" />
-                <mj-text height="80px" >
+                <mj-text height="60px" >
                     <span class="default-text">
                         <span class="default-text highlighted-text">Рекомендации</span> по вычислительным ресурсам для сервера до 150 пользователей:
                         4 CPU / 16 Gb RAM / 50-100 Gb SSD
