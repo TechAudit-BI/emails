@@ -58,7 +58,7 @@
                         Для того, чтобы <span class="highlighted-text">скачать</span> Суперсет ТА необходимо выполнить следующую команду:
                     </span>
                     <div style="width: 90%; height: 150px; background-color: #FFFFFF; border-radius: 20px; padding: 10px" class="default-text purple-text">
-                            git clone https://[TOKEN]@github&#46;com/TechAudit-BI/[CLIENT-REPO]
+                        <span>git clone <span>https</span>://<span>[TOKEN]</span>@<span>github</span>.com<span>/TechAudit-BI/[CLIENT-REPO]</span>
                     </div>
                 </mj-text>
             </mj-column>
@@ -126,7 +126,7 @@
                     </span>
                     <span class="default-text" style="display: block; padding-bottom: 10px">
                         Попасть в неё можно по ссылке: <a target="_blank" href="https://techaudit.kaiten.ru/sd" class="purple-text">https://techaudit.kaiten.ru/sd</a>,<br />
-                        авторизовавшись по почте в домене enco72.ru.
+                        авторизовавшись по почте в домене <span>enco72</span><span>.ru</span>.
                     </span>
                     <span class="default-text">
                         В дальнейшем доступ к линии поддержки осуществляется в рамках договора поддержки.
