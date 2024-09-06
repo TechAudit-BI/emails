@@ -14,9 +14,9 @@
         </mj-attributes>
     </mj-head>
     <mj-body width="640px" background-color="#F1F6F9">
-        <mj-include path="components/header.mjml" />
-        <mj-include path="components/welcome-text.mjml" />
-        <mj-include path="components/instruction.mjml" />
-        <mj-include path="components/contacts.mjml" />
+        <mj-include path="header.mjml" />
+        <mj-include path="welcome-text.mjml" />
+        <mj-include path="instruction.mjml" />
+        <mj-include path="contacts.mjml" />
     </mj-body>
 </mjml>

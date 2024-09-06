@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:license-purchase": "mjml -w templates/license-purchase/index.mjml -o dist/license-purchase/",
+    "build:license-purchase": "mjml templates/license-purchase/index.mjml -o dist/license-purchase/index.html",
+    "validate": "mjml --validate templates/**/*.mjml"
   },
   "keywords": [],
   "author": "",
