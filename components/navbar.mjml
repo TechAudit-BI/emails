@@ -20,7 +20,7 @@
         </mj-style>
     </mj-head>
     <mj-body>
-        <mj-section padding="0">
+        <mj-section padding="0 0 8px 0" background-color="#F1F6F9">
             <mj-column>
                 <mj-navbar>
                     <mj-navbar-link css-class="navbar-link" href="https://xn--e1aa2afcdic.xn--p1ai/">Главная</mj-navbar-link>
