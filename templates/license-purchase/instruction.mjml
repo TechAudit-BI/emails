@@ -58,7 +58,7 @@
     <mj-body width="547px" background-color="#FFFFFF">
         <mj-section padding="0 0 10px 0" background-color="#FFFFFF">
             <mj-column width="267px" css-class="card card-with-instructions">
-                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/download-icon.png?raw=true" padding="0" align="left" alt="Как загрузить Суперсет ТА"/>
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/download-icon.png?raw=true" padding="0" align="left" alt="Как загрузить Суперсет ТА"/>
                 <mj-spacer height="10px" />
                 <mj-text css-class="card-text-container">
                     <span class="default-text" style="display: block; height: 58px; padding: 0 0 10px 0">
@@ -73,7 +73,7 @@
                 <mj-spacer height="10px"/>
             </mj-column>
             <mj-column width="267px" css-class="card card-with-instructions">
-                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/unzip-icon.png?raw=true" padding="0" align="left" alt="Как развернуть Суперсет ТА"/>
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/unzip-icon.png?raw=true" padding="0" align="left" alt="Как развернуть Суперсет ТА"/>
                 <mj-spacer height="10px" />
                 <mj-text css-class="card-text-container">
                     <span class="default-text" style="display: block; height: 58px;">
@@ -99,7 +99,7 @@
 
         <mj-section padding="0 0 10px 0" background-color="#FFFFFF">
             <mj-column width="267px" css-class="card">
-                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/clock-icon.png?raw=true" padding="0" align="left" alt="Сроки"/>
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/clock-icon.png?raw=true" padding="0" align="left" alt="Сроки"/>
                 <mj-spacer height="10px" />
                 <mj-text height="60px">
                     <span class="default-text">
@@ -112,7 +112,7 @@
                 <mj-spacer height="10px"/>
             </mj-column>
             <mj-column width="267px" css-class="card">
-                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/device-icon.png?raw=true" alt="Технические требования" padding="0" align="left"/>
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/device-icon.png?raw=true" alt="Технические требования" padding="0" align="left"/>
                 <mj-spacer height="10px" />
                 <mj-text height="60px" >
                     <span class="default-text">
@@ -125,7 +125,7 @@
 
         <mj-section padding="0 0 10px 0" background-color="#FFFFFF">
             <mj-column width="547px" css-class="card">
-                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/support-icon.png?raw=true" alt="О поддержке" padding="0" align="left"/>
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/support-icon.png?raw=true" alt="О поддержке" padding="0" align="left"/>
                 <mj-spacer height="10px" />
                 <mj-text>
                     <span class="default-text" style="display: block; padding-bottom: 10px">
@@ -145,7 +145,7 @@
         <mj-section background-color="#FFFFFF" padding="0">
             <mj-group width="547px" css-class="card card-with-small-padding stack-columns">
                 <mj-column width="35px" padding="0">
-                    <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/assets/icons/info-icon.png?raw=true" alt="Информация о приложениях" padding="0"/>
+                    <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/info-icon.png?raw=true" alt="Информация о приложениях" padding="0"/>
                 </mj-column>
                 <mj-column width="10px">
                     <mj-spacer height="10px" />
