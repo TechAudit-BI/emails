@@ -1,0 +1,163 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .card-text-container {
+                height: 230px;
+            }
+            .highlighted-text {
+                background-color: #C6FF0B !important;
+                font-weight: 700 !important;
+                line-height: 14px !important;
+            }
+            .purple-text {
+                color: #593DE9 !important;
+            }
+            .default-text {
+                font-family: 'Montserrat', Verdana, sans-serif !important;
+                font-weight: 400;
+                font-size: 10px !important;
+                line-height: 14px !important;
+                color: #000000;
+            }
+            .card {
+                width: 267px !important;
+                background-color: #F1F6F9;
+                border-radius: 20px;
+                padding: 34px 32px 18px;
+                box-sizing: border-box;
+            }
+            .card-with-instructions {
+                padding: 34px 32px !important;
+            }
+            .card-with-small-padding {
+                padding: 34px 32px;
+            }
+            .stack-columns div{
+                display: block !important;
+            }
+            .stack-columns div img{
+                width: 35px !important;
+                height: 35px !important;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:480px) {
+                .card-with-small-padding {
+                    padding: 12px 32px !important;
+                }
+                .stack-columns div {
+                    display: inline-block !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body width="547px" background-color="#FFFFFF">
+        <mj-section padding="0 0 10px 0" background-color="#FFFFFF">
+            <mj-column width="267px" css-class="card card-with-instructions">
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/download-icon.png?raw=true" padding="0" align="left" alt="Как загрузить Суперсет ТА"/>
+                <mj-spacer height="10px" />
+                <mj-text css-class="card-text-container">
+                    <span class="default-text" style="display: block; height: 58px; padding: 0 0 10px 0">
+                        Для того, чтобы <span class="highlighted-text">скачать</span> Суперсет ТА необходимо выполнить следующую команду:
+                    </span>
+                    <div style="width: 90%; height: 180px; background-color: #FFFFFF; border-radius: 20px; padding: 10px" class="default-text purple-text">
+                        <span>git clone </span><span>https</span>://<span>[TOKEN]</span>@<span>github</span>.com<span>/TechAudit-BI/[CLIENT-REPO]</span>
+                    </div>
+                </mj-text>
+            </mj-column>
+            <mj-column width="10px">
+                <mj-spacer height="10px"/>
+            </mj-column>
+            <mj-column width="267px" css-class="card card-with-instructions">
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/unzip-icon.png?raw=true" padding="0" align="left" alt="Как развернуть Суперсет ТА"/>
+                <mj-spacer height="10px" />
+                <mj-text css-class="card-text-container">
+                    <span class="default-text" style="display: block; height: 58px;">
+                        Для того, чтобы <span class="highlighted-text">развернуть</span> Суперсет ТА в docker нужно выполнить следующие команды
+                        в основной папке Суперсет ТА:
+                    </span>
+                    <div style="height: 10px"></div>
+                    <div style="width: 90%; background-color: #FFFFFF; border-radius: 20px; padding: 10px; height: 180px;" class="default-text">
+                        <span style="padding-bottom: 10px; display: block">
+                            1. <span class="default-text purple-text">docker build . -t &lt;название-образа&gt;:&lt;тег&gt;</span><br />
+                        </span>
+                        <span style="padding-bottom: 10px; display: block">
+                            2. В файле <span class="default-text purple-text">docker-compose-non-dev.yml</span> в переменной <span class="purple-text">superset-image</span> нужно указать те же название образа и тег,
+                            что и в предыдущей команде<br />
+                        </span>
+                        <span style="padding-bottom: 10px; display: block">
+                            3. <span class="default-text purple-text">docker compose -f docker-compose-non-dev.yml up</span>
+                        </span>
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 10px 0" background-color="#FFFFFF">
+            <mj-column width="267px" css-class="card">
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/clock-icon.png?raw=true" padding="0" align="left" alt="Сроки"/>
+                <mj-spacer height="10px" />
+                <mj-text height="60px">
+                    <span class="default-text">
+                        Токен доступа к репозиторию действует <span class="highlighted-text">30 дней</span>.
+                        Вы можете запросить новый токен при необходимости.
+                    </span>
+                </mj-text>
+            </mj-column>
+            <mj-column width="10px">
+                <mj-spacer height="10px"/>
+            </mj-column>
+            <mj-column width="267px" css-class="card">
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/device-icon.png?raw=true" alt="Технические требования" padding="0" align="left"/>
+                <mj-spacer height="10px" />
+                <mj-text height="60px" >
+                    <span class="default-text">
+                        <span class="default-text highlighted-text">Рекомендации</span> по вычислительным ресурсам для сервера до 150 пользователей:
+                        4 CPU / 16 Gb RAM / 50-100 Gb SSD
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 10px 0" background-color="#FFFFFF">
+            <mj-column width="547px" css-class="card">
+                <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/support-icon.png?raw=true" alt="О поддержке" padding="0" align="left"/>
+                <mj-spacer height="10px" />
+                <mj-text>
+                    <span class="default-text" style="display: block; padding-bottom: 10px">
+                        В течение <span class="highlighted-text">трёх месяцев вам доступна наша линия поддержки,</span> где вы можете оставлять вопросы или сообщить об ошибках в работе платформы.
+                    </span>
+                    <span class="default-text" style="display: block; padding-bottom: 10px">
+                        Попасть в неё можно по ссылке: <a target="_blank" href="https://techaudit.kaiten.ru/sd" class="purple-text">https://techaudit.kaiten.ru/sd</a>,<br />
+                        авторизовавшись по почте в домене <span>enco72</span><span>.ru</span>.
+                    </span>
+                    <span class="default-text">
+                        В дальнейшем доступ к линии поддержки осуществляется в рамках договора поддержки.
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#FFFFFF" padding="0">
+            <mj-group width="547px" css-class="card card-with-small-padding stack-columns">
+                <mj-column width="35px" padding="0">
+                    <mj-image width="35px" height="35px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/icons/info-icon.png?raw=true" alt="Информация о приложениях" padding="0"/>
+                </mj-column>
+                <mj-column width="10px">
+                    <mj-spacer height="10px" />
+                </mj-column>
+                <mj-column width="90%">
+                    <mj-text>
+                        <span class="default-text">Также к письму приложены<br />
+                            руководства пользователя и администратора Суперсет ТА.
+                        </span>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+    </mj-body>
+</mjml>

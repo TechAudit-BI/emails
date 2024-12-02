@@ -1,0 +1,22 @@
+<mjml>
+    <mj-head>
+        <mj-raw>
+            <meta name="color-scheme" content="light">
+            <meta name="supported-color-schemes" content="light">
+        </mj-raw>
+        <mj-preview>Делимся инструкцией по установке и использованию Суперсет ТА&#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp; &#847; &zwnj; &nbsp;</mj-preview>
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+        <mj-title>Лицензия Суперсет ТА</mj-title>
+        <mj-attributes>
+            <mj-all font-family="Montserrat, Verdana, sans-serif" />
+            <mj-text padding="0" />
+            <mj-section background-color="#F1F6F9" padding="0" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body width="640px" background-color="#F1F6F9">
+        <mj-include path="header.mjml" />
+        <mj-include path="welcome-text.mjml" />
+        <mj-include path="instruction.mjml" />
+        <mj-include path="contacts.mjml" />
+    </mj-body>
+</mjml>

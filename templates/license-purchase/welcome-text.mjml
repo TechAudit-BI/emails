@@ -1,0 +1,57 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-section padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .title {
+                padding: 38px 36px 24px !important;
+            }
+            .subtitle {
+                padding: 0 36px 24px !important;
+            }
+            .title span{
+                font-family: 'Montserrat', Verdana, sans-serif;
+                font-weight: 600;
+                font-size: 16px !important;
+                line-height: 20px !important;
+            }
+            .subtitle span{
+                font-family: 'Montserrat', Verdana, sans-serif;
+                font-weight: 300;
+                font-size: 14px !important;
+                line-height: 18px !important;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:480px) {
+                .title {
+                    padding: 35px 53px !important;
+                }
+                .subtitle {
+                    padding: 0 53px 43px !important;
+                }
+                .title span{
+                    font-size: 24px !important;
+                    line-height: 32px !important;
+                }
+                .subtitle span{
+                    font-size: 16px !important;
+                    line-height: 26px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section>
+            <mj-column padding="0" width="100%" background-color="#FFFFFF">
+                <mj-text css-class="title">
+                    <span>Добрый день!</span>
+                </mj-text>
+                <mj-text css-class="subtitle">
+                    <span>Вы приобрели лицензию на использование Суперсет ТА.</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

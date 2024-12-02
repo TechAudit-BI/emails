@@ -2,15 +2,16 @@
     <mj-head>
         <mj-style>
             .navbar-link {
-                padding: 0 10px !important;
+                padding: 0 13px !important;
                 font-size: 12px !important;
-                font-family: 'Montserrat', 'Verdana', sans-serif !important;
+                font-family: 'Montserrat', Verdana, sans-serif !important;
                 line-height: 16px !important;
                 font-weight: 400 !important;
                 color: #333333 !important;
                 text-transform: uppercase;
             }
-            @media only screen and (min-width:480px) {
+
+            @media only screen and (min-width: 480px) {
                 .navbar-link {
                     padding: 0 50px !important;
                     font-size: 14px !important;
@@ -19,12 +20,12 @@
         </mj-style>
     </mj-head>
     <mj-body>
-        <mj-section padding="0">
+        <mj-section padding="0 0 8px 0" background-color="#F1F6F9">
             <mj-column>
                 <mj-navbar>
-                    <mj-navbar-link css-class="navbar-link">Главная</mj-navbar-link>
-                    <mj-navbar-link css-class="navbar-link">Релизы</mj-navbar-link>
-                    <mj-navbar-link css-class="navbar-link">Поддержка</mj-navbar-link>
+                    <mj-navbar-link css-class="navbar-link" href="https://xn--e1aa2afcdic.xn--p1ai/">Главная</mj-navbar-link>
+                    <mj-navbar-link css-class="navbar-link" href="https://xn--e1aa2afcdic.xn--p1ai/releasesandpatches">Релизы</mj-navbar-link>
+                    <mj-navbar-link css-class="navbar-link" href="https://techaudit.kaiten.ru/sd">Поддержка</mj-navbar-link>
                 </mj-navbar>
             </mj-column>
         </mj-section>
