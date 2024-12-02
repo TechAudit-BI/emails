@@ -7,7 +7,7 @@ if (!folder) {
 	process.exit(1);
 }
 
-if (!fs.existsSync(folder)) {
+if (!fs.existsSync(`templates/${folder}`)) {
 	console.error('Specify an existing folder');
 	process.exit(1);
 }
