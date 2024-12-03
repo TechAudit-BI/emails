@@ -21,11 +21,6 @@
                 font-size: 14px !important;
                 line-height: 18px !important;
             }
-            .link {
-                font-weight: 700;
-                text-decoration-thickness: 2px;
-                color: #623BED;
-            }
         </mj-style>
         <mj-style>
             @media only screen and (min-width:480px) {
@@ -61,7 +56,7 @@
                         чтобы вы могли раньше получать доступ к новым функциям и самым актуальным исправлениям.
                         Поэтому следующий релиз<br />запланирован уже в январе - начале февраля 2025 года.
                         О том, какой функционал мы планируем реализовать, вы можете узнать в
-                        <a href="#" class="link">нашей дорожной карте</a>.
+                        нашей дорожной карте.
                     </span>
                 </mj-text>
             </mj-column>
