@@ -5,10 +5,12 @@
         </mj-attributes>
         <mj-style inline="inline">
             .title {
-                padding: 38px 36px 24px !important;
+                padding: 10px 25px 20px !important;
+                font-size: 12px !important;
+                line-height: 1.15;
             }
             .subtitle {
-                padding: 0 36px 24px !important;
+                padding: 0 25px 24px !important;
             }
             .title span {
                 font-family: 'Arial', Verdana, sans-serif;

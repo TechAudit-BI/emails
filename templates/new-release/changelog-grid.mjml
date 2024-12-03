@@ -28,9 +28,6 @@
             .card:last-of-type {
                 margin: 0;
             }
-            .card-with-small-padding {
-                padding: 34px 32px;
-            }
             .stack-columns div{
                 display: inline-block !important;
             }
@@ -116,7 +113,7 @@
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/folder-icon.png?raw=true" padding="0" align="left"/>
                 </mj-column>
                 <mj-column css-class="card-spacer-width">
-                    <mj-spacer height="10px" width="10px"/>
+                    <mj-spacer height="10px" />
                 </mj-column>
                 <mj-column width="75%">
                     <mj-text css-class="card-text-container">
