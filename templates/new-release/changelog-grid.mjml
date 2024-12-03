@@ -1,0 +1,152 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .card-text-container {
+                height: 73px;
+                vertical-align: top;
+            }
+            .card-text-container div > span {
+                font-size: 12px;
+                line-height: 1.15;
+                font-weight: 400;
+            }
+            .card {
+                background-color: #F1F6F9;
+                border-radius: 10px;
+                padding: 20px 20px 10px !important;
+                box-sizing: border-box;
+            }
+            .card-with-small-padding {
+                padding: 34px 32px;
+            }
+            .stack-columns div{
+                display: block !important;
+            }
+            .stack-columns div img{
+                width: 45px !important;
+                height: 45px !important;
+            }
+            .link {
+                font-weight: 700;
+                text-decoration-thickness: 2px;
+                color: #623BED;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:480px) {
+                .card-with-small-padding {
+                    padding: 20px 20px 5px !important;
+                }
+                .card-with-small-padding .card-text-container div > span {
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    width: 450px;
+                }
+                .card-with-small-padding .card-text-container div > span:last-of-type {
+                    margin-bottom: 0;
+                }
+                .stack-columns div {
+                    display: inline-block !important;
+                    height: 87px;
+                }
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#FFFFFF">
+        <mj-section padding="0 30px 10px" background-color="#FFFFFF">
+            <mj-column width="196px" css-class="card">
+                <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/folder-icon.png?raw=true" padding="0" align="left"/>
+                <mj-spacer height="5px" />
+                <mj-text css-class="card-text-container">
+                    <span>
+                        Альтернативный режим отображения дашбордов в виде папок по тегам
+                    </span>
+                </mj-text>
+            </mj-column>
+            <mj-column width="13px">
+                <mj-spacer height="13px"/>
+            </mj-column>
+            <mj-column width="196px" css-class="card">
+                <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/gantt-chart-icon.png?raw=true" alt="Технические требования" padding="0" align="left"/>
+                <mj-spacer height="5px" />
+                <mj-text css-class="card-text-container" >
+                    <span>
+                        Диаграмма Ганта
+                    </span>
+                </mj-text>
+            </mj-column>
+            <mj-column width="13px">
+                <mj-spacer height="13px"/>
+            </mj-column>
+            <mj-column width="196px" css-class="card">
+                <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/users-icon.png?raw=true" padding="0" align="left"/>
+                <mj-spacer height="5px" />
+                <mj-text css-class="card-text-container" >
+                    <span>
+                        Предоставление <br />доступа
+                        на чтение дашборда конкретным пользователям
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 30px 10px" background-color="#FFFFFF">
+            <mj-column width="300px" css-class="card">
+                <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/filter-icon.png?raw=true" padding="0" align="left"/>
+                <mj-spacer height="5px" />
+                <mj-text css-class="card-text-container">
+                    <span>
+                        Новый тип фильтра - «Значение с <br />условием», который позволяет
+                        в фильтре на дашборде задать не только значение,
+                        но и оператор сравнения (равно, в коллекции, содержит и пр.)
+                    </span>
+                </mj-text>
+            </mj-column>
+            <mj-column width="14px">
+                <mj-spacer height="14px"/>
+            </mj-column>
+            <mj-column width="300px" css-class="card">
+                <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/dashboard-icon.png?raw=true" padding="0" align="left" alt="Как развернуть Суперсет ТА"/>
+                <mj-spacer height="5px" />
+                <mj-text css-class="card-text-container">
+                    <span>
+                        Более наглядный интерфейс в части перетаскивания элементов в редакторе графиков и дашбордов
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#FFFFFF" padding="0 30px">
+            <mj-group width="614px" css-class="card card-with-small-padding stack-columns" vertical-align="middle">
+                <mj-column width="45px" padding="0" vertical-align="middle">
+                    <mj-image
+                            width="45px"
+                            height="45px"
+                            src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/lightning-icon.png?raw=true"
+                            padding="10px 0"/>
+                </mj-column>
+                <mj-column width="10px" vertical-align="middle">
+                    <mj-spacer height="10px" />
+                </mj-column>
+                <mj-column width="90%" vertical-align="middle">
+                    <mj-text css-class="card-text-container">
+                        <span>
+                            Эти и многие другие модификации уже доступны в вашем репозитории
+                            в соответствующей ветке.
+                        </span>
+                        <br />
+                        <span>
+                            С полным перечнем изменений вы можете ознакомиться на
+                            <a href="#" class="link">нашем сайте</a><br />
+                            или в прикрепленном документе.
+                        </span>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+    </mj-body>
+</mjml>

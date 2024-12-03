@@ -1,0 +1,10 @@
+<mjml>
+    <mj-body>
+        <mj-section background-color="#F1F6F9" padding="57px 0 0">
+            <mj-column width="100%">
+                <mj-image padding="0 0 35px 0" width="214px" height="27px" src="https://github.com/TechAudit-BI/emails/blob/email/license-purchase/templates/license-purchase/assets/logos/superset-logo.png?raw=true" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="navbar.mjml" />
+    </mj-body>
+</mjml>
