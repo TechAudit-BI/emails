@@ -6,6 +6,7 @@
         <mj-style inline="inline">
             .changelog-section-padding {
                 padding: 0 25px 10px !important;
+                max-width: 624px !important;
             }
             .card-text-container {
                 vertical-align: top;
@@ -89,7 +90,7 @@
                     display: inline-block !important;
                 }
                 .changelog-section-padding {
-                    padding: 0 0 10px !important;
+                    max-width: 624px !important;
                 }
                 .card-right-padding {
                     margin-right: 14px !important;
@@ -105,8 +106,8 @@
         </mj-style>
     </mj-head>
 
-    <mj-body background-color="#FFFFFF">
-        <mj-section background-color="#FFFFFF" css-class="changelog-section-padding">
+    <mj-body css-class="changelog-section-padding" background-color="#FFFFFF">
+        <mj-section background-color="#FFFFFF" css-class="changelog-section-padding" >
             <!--  card 1  -->
             <mj-group width="196px" css-class="card card-right-padding">
                 <mj-column css-class="card-image-width" >
