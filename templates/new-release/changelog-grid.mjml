@@ -219,7 +219,7 @@
                         <br />
                         <span>
                             С полным перечнем изменений вы можете ознакомиться на
-                            <a href="#" class="link">нашем сайте</a><br />
+                            <a target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/402patchnote" class="link">нашем сайте</a><br />
                             или в прикрепленном документе.
                         </span>
                     </mj-text>
