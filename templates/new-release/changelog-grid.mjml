@@ -16,7 +16,9 @@
                 font-size: 12px;
                 line-height: 1.15;
                 font-weight: 400;
-                display: inline-block;
+                display: table-cell;
+                vertical-align: middle;
+                height: 45px;
                 width: 100%;
             }
             .card {
@@ -28,13 +30,6 @@
             }
             .card:last-of-type {
                 margin: 0;
-            }
-            .stack-columns div{
-                display: inline-block !important;
-            }
-            .stack-columns div img{
-                width: 45px !important;
-                height: 45px !important;
             }
             .link {
                 font-weight: 700;
@@ -51,6 +46,12 @@
             .card-spacer-width {
                 width: 10px !important;
             }
+            .card-l .card-text-container div > span {
+                margin-bottom: 10px;
+            }
+            .card-l .card-text-container div > span:last-of-type {
+                margin-bottom: 0;
+            }
         </mj-style>
         <mj-style>
             @media only screen and (min-width:480px) {
@@ -59,11 +60,12 @@
                     border-radius: 10px;
                     padding: 20px 20px 10px !important;
                     box-sizing: border-box;
-                    margin-bottom: 14px;
+                    margin-bottom: 4px !important;
                     height: 153px;
                 }
                 .card-l {
                     height: 110px;
+                    margin-bottom: 0 !important;
                 }
                 .card-text-container {
                     height: 73px;
@@ -78,22 +80,19 @@
                     width: 250px !important;
                     max-width: 250px !important;
                 }
-                .card-with-small-padding .card-text-container div > span {
-                    display: inline-block;
-                    margin-bottom: 10px;
+                .card-l .card-text-container div > span {
                     width: 450px;
-                }
-                .card-with-small-padding .card-text-container div > span:last-of-type {
-                    margin-bottom: 0;
-                }
-                .stack-columns div {
-                    display: inline-block !important;
+                    height: auto !important;
+                    margin-top: 0 !important;
                 }
                 .changelog-section-padding {
                     max-width: 624px !important;
                 }
                 .card-right-padding {
                     margin-right: 14px !important;
+                }
+                .card-bottom-padding {
+                    margin-bottom: 10px !important;
                 }
                 .card-image-width {
                     width: 45px !important;
@@ -161,7 +160,7 @@
 
         <mj-section css-class="changelog-section-padding" background-color="#FFFFFF">
             <!--  card 4  -->
-            <mj-group width="300px" css-class="card card-right-padding">
+            <mj-group width="300px" css-class="card card-right-padding card-bottom-padding">
                 <mj-column css-class="card-image-width">
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/filter-icon.png?raw=true" padding="0" align="left"/>
                 </mj-column>
@@ -179,7 +178,7 @@
                 </mj-column>
             </mj-group>
             <!--  card 5  -->
-            <mj-group width="300px" css-class="card">
+            <mj-group width="300px" css-class="card card-bottom-padding">
                 <mj-column css-class="card-image-width">
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/dashboard-icon.png?raw=true" padding="0" align="left" alt="Как развернуть Суперсет ТА"/>
                 </mj-column>
@@ -201,6 +200,7 @@
             <mj-group width="614px" css-class="card card-l">
                 <mj-column css-class="card-image-width" padding="0">
                     <mj-image
+                            css-class=""
                             width="45px"
                             height="45px"
                             src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/lightning-icon.png?raw=true"
@@ -209,7 +209,7 @@
                 <mj-column css-class="card-spacer-width">
                     <mj-spacer height="5px" />
                 </mj-column>
-                <mj-column width="75%" css-class="card-text-container-l">
+                <mj-column width="75%">
                     <mj-text css-class="card-text-container">
                         <span>
                             Эти и многие другие модификации уже доступны в вашем репозитории
