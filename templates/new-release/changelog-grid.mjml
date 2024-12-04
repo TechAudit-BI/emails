@@ -27,6 +27,7 @@
                 padding: 15px !important;
                 box-sizing: border-box;
                 margin: 0 0 10px;
+                height: auto;
             }
             .card:last-of-type {
                 margin: 0;
@@ -55,14 +56,17 @@
             }
         </mj-style>
         <mj-style>
-            @media only screen and (min-width:480px) {
+            @media only screen and (min-width:768px) {
                 .card {
-                    background-color: #F1F6F9;
-                    border-radius: 10px;
                     padding: 20px 20px 10px !important;
-                    box-sizing: border-box;
                     margin-bottom: 4px !important;
                     height: 153px;
+                }
+                .card-s {
+                    width: 196px !important;
+                }
+                .card-m {
+                    width: 300px !important;
                 }
                 .card-l {
                     height: 110px;
@@ -107,13 +111,15 @@
     </mj-head>
 
     <mj-body css-class="changelog-section-padding" background-color="#FFFFFF">
+
+        <!--  cards of size "s"  -->
         <mj-section background-color="#FFFFFF" css-class="changelog-section-padding" >
             <!--  card 1  -->
-            <mj-group width="196px" css-class="card card-right-padding">
-                <mj-column css-class="card-image-width" >
+            <mj-group width="100%" css-class="card card-s card-right-padding">
+                <mj-column width="45px" css-class="card-image-width" >
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/folder-icon.png?raw=true" padding="0" align="left"/>
                 </mj-column>
-                <mj-column css-class="card-spacer-width">
+                <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="10px" />
                 </mj-column>
                 <mj-column width="75%">
@@ -125,11 +131,11 @@
                 </mj-column>
             </mj-group>
             <!--  card 2  -->
-            <mj-group width="196px" css-class="card card-right-padding">
-                <mj-column css-class="card-image-width">
+            <mj-group width="100%" css-class="card card-s card-right-padding">
+                <mj-column width="45px" css-class="card-image-width">
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/gantt-chart-icon.png?raw=true" alt="Технические требования" padding="0" align="left"/>
                 </mj-column>
-                <mj-column css-class="card-spacer-width">
+                <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
                 </mj-column>
                 <mj-column width="75%">
@@ -141,11 +147,11 @@
                 </mj-column>
             </mj-group>
             <!--  card 3  -->
-            <mj-group width="196px" css-class="card">
-                <mj-column css-class="card-image-width">
+            <mj-group width="100%" css-class="card card-s">
+                <mj-column width="45px" css-class="card-image-width">
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/users-icon.png?raw=true" padding="0" align="left"/>
                 </mj-column>
-                <mj-column css-class="card-spacer-width">
+                <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
                 </mj-column>
                 <mj-column width="75%">
@@ -159,13 +165,14 @@
             </mj-group>
         </mj-section>
 
+        <!--  cards of size "m"  -->
         <mj-section css-class="changelog-section-padding" background-color="#FFFFFF">
             <!--  card 4  -->
-            <mj-group width="300px" css-class="card card-right-padding card-bottom-padding">
-                <mj-column css-class="card-image-width">
+            <mj-group width="100%" css-class="card card-m card-right-padding card-bottom-padding">
+                <mj-column width="45px" css-class="card-image-width">
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/filter-icon.png?raw=true" padding="0" align="left"/>
                 </mj-column>
-                <mj-column css-class="card-spacer-width">
+                <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
                 </mj-column>
                 <mj-column width="75%" css-class="card-text-container-m">
@@ -179,11 +186,11 @@
                 </mj-column>
             </mj-group>
             <!--  card 5  -->
-            <mj-group width="300px" css-class="card card-bottom-padding">
-                <mj-column css-class="card-image-width">
+            <mj-group width="100%" css-class="card card-m card-bottom-padding">
+                <mj-column width="45px" css-class="card-image-width">
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/dashboard-icon.png?raw=true" padding="0" align="left" alt="Как развернуть Суперсет ТА"/>
                 </mj-column>
-                <mj-column css-class="card-spacer-width">
+                <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
                 </mj-column>
                 <mj-column width="75%" css-class="card-text-container-m">
@@ -196,10 +203,11 @@
             </mj-group>
         </mj-section>
 
+        <!--  cards of size "l"  -->
         <mj-section background-color="#FFFFFF" css-class="changelog-section-padding">
             <!--  card 6  -->
-            <mj-group width="614px" css-class="card card-l">
-                <mj-column css-class="card-image-width" padding="0">
+            <mj-group width="100%" css-class="card card-l">
+                <mj-column width="45px" css-class="card-image-width" padding="0">
                     <mj-image
                             css-class=""
                             width="45px"
@@ -207,7 +215,7 @@
                             src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/lightning-icon.png?raw=true"
                             padding="10px 0"/>
                 </mj-column>
-                <mj-column css-class="card-spacer-width">
+                <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
                 </mj-column>
                 <mj-column width="75%">
@@ -219,8 +227,7 @@
                         <br />
                         <span>
                             С полным перечнем изменений вы можете ознакомиться на
-                            <a target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/402patchnote" class="link">нашем сайте</a><br />
-                            или в прикрепленном документе.
+                            <a target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/402patchnote" class="link">нашем сайте</a> или в прикрепленном документе.
                         </span>
                     </mj-text>
                 </mj-column>

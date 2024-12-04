@@ -11,7 +11,7 @@
                 text-transform: uppercase;
             }
 
-            @media only screen and (min-width: 480px) {
+            @media only screen and (min-width: 768px) {
                 .navbar-link {
                     padding: 0 70px !important;
                     font-size: 14px !important;
