@@ -47,6 +47,7 @@
                 width: 10px !important;
             }
             .card-l .card-text-container div > span {
+                height: auto;
                 margin-bottom: 10px;
             }
             .card-l .card-text-container div > span:last-of-type {
@@ -164,7 +165,7 @@
                 <mj-column css-class="card-image-width">
                     <mj-image width="45px" height="45px" src="https://github.com/TechAudit-BI/emails/blob/email/new-release/templates/new-release/assets/filter-icon.png?raw=true" padding="0" align="left"/>
                 </mj-column>
-                <mj-column width="10px">
+                <mj-column css-class="card-spacer-width">
                     <mj-spacer height="5px" />
                 </mj-column>
                 <mj-column width="75%" css-class="card-text-container-m">
