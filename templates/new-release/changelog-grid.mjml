@@ -34,7 +34,6 @@
             }
             .link {
                 font-weight: 700;
-                text-decoration-thickness: 2px;
                 color: #623BED;
             }
             .card-right-padding {
@@ -227,7 +226,9 @@
                         <br />
                         <span>
                             С полным перечнем изменений вы можете ознакомиться на
-                            <a target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/402patchnote" class="link">нашем сайте</a> или в прикрепленном документе.
+                            <a target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/402patchnote" class="link">нашем сайте</a>
+                            или в
+                            <a target="_blank" href="https://drive.google.com/file/d/1438t54d6xK3lEEI9iADRVqv1i139XisQ/view?usp=sharing" class="link">этом документе</a>.
                         </span>
                     </mj-text>
                 </mj-column>
