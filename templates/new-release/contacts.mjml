@@ -1,0 +1,35 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .text span {
+                font-family: Arial, Verdana, sans-serif;
+                font-weight: 400 !important;
+                font-size: 14px !important;
+                line-height: 1.28 !important;
+            }
+            .section-padding {
+                padding: 15px 53px !important;
+                box-sizing: border-box;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:768px) {
+                .section-padding {
+                    padding: 26px 33px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section padding="0" background-color="#F1F6F9">
+            <mj-column width="100%" css-class="section-padding">
+                <mj-text css-class="text"><span>Евгений Целиков</span></mj-text>
+                <mj-text css-class="text"><span>Product Owner Суперсет ТА</span></mj-text>
+                <mj-text css-class="text"><span>тел. +7-915-009-18-44</span></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
