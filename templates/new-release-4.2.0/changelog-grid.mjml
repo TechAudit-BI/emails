@@ -105,7 +105,7 @@
             <!--  card 1  -->
             <mj-group width="100%" css-class="card card-m card-right-padding card-bottom-padding">
                 <mj-column width="35px" css-class="card-image-width">
-                    <mj-image width="35px" height="35px" src="https://images.xn--e1aa2afcdic.xn--p1acf/new-release-4.2.0/comments_icon.png" padding="0" align="left" />
+                    <mj-image width="35px" height="35px" src="https://image.xn--e1aa2afcdic.xn--p1acf/images/new-release-4.2.0/comments_icon.png" padding="0" align="left" />
                 </mj-column>
                 <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
@@ -123,7 +123,7 @@
             <!--  card 2  -->
             <mj-group width="100%" css-class="card card-m card-bottom-padding">
                 <mj-column width="35px" css-class="card-image-width" >
-                    <mj-image width="35px" height="35px" src="https://images.xn--e1aa2afcdic.xn--p1acf/new-release-4.2.0/filter_icon.png" padding="0" align="left"/>
+                    <mj-image width="35px" height="35px" src="https://image.xn--e1aa2afcdic.xn--p1acf/images/new-release-4.2.0/filter_icon.png" padding="0" align="left"/>
                 </mj-column>
                 <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
@@ -141,7 +141,7 @@
             <!--  card 3  -->
             <mj-group width="100%" css-class="card card-m card-right-padding card-bottom-padding">
                 <mj-column width="35px" css-class="card-image-width">
-                    <mj-image width="35px" height="35px" src="https://images.xn--e1aa2afcdic.xn--p1acf/new-release-4.2.0/export_icon.png" padding="0" align="left"/>
+                    <mj-image width="35px" height="35px" src="https://image.xn--e1aa2afcdic.xn--p1acf/images/new-release-4.2.0/export_icon.png" padding="0" align="left"/>
                 </mj-column>
                 <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
@@ -160,7 +160,7 @@
             <!--  card 4  -->
             <mj-group width="100%" css-class="card card-m card-bottom-padding">
                 <mj-column width="35px" css-class="card-image-width">
-                    <mj-image width="35px" height="35px" src="https://images.xn--e1aa2afcdic.xn--p1acf/new-release-4.2.0/color_icon.png" padding="0" align="left" />
+                    <mj-image width="35px" height="35px" src="https://image.xn--e1aa2afcdic.xn--p1acf/images/new-release-4.2.0/color_icon.png" padding="0" align="left" />
                 </mj-column>
                 <mj-column width="10px" css-class="card-spacer-width">
                     <mj-spacer height="5px" />
