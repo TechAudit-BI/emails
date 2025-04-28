@@ -1,0 +1,33 @@
+<mjml>
+    <mj-head>
+        <mj-style inline="inline">
+            .header-padding {
+                padding: 40px 0 0;
+                background-color: #F1F6F9;
+            }
+            .logo-padding {
+                padding: 0 0 30px 0 !important;
+                width: 214px;
+                height: 27px;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:768px) {
+                .header-padding {
+                    padding: 57px 0 0 !important;
+                }
+                .logo-padding {
+                    padding: 0 0 35px 0 !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section css-class="header-padding">
+            <mj-column width="100%">
+                <mj-image css-class="logo-padding" width="214px" height="27px" src="https://image.xn--e1aa2afcdic.xn--p1acf/images/logo.png" />
+            </mj-column>
+        </mj-section>
+        <mj-include path="navbar.mjml" />
+    </mj-body>
+</mjml>
