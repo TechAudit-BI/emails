@@ -1,0 +1,56 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-section padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .subtitle {
+                padding: 0 25px 24px !important;
+            }
+            .subtitle div > span {
+                font-family: 'Arial', Verdana, sans-serif;
+                font-weight: 400;
+                font-size: 14px !important;
+                line-height: 18px !important;
+            }
+            .link {
+                font-weight: 700;
+                color: #623BED;
+            }
+            .highlighted-text {
+                background-color: #C6FF0B !important;
+                font-weight: 700 !important;
+                line-height: 14px !important;
+            }
+        </mj-style>
+        <mj-style>
+            @media only screen and (min-width:768px) {
+                .subtitle {
+                    padding: 25px 50px 0 !important;
+                }
+                .subtitle div > span {
+                    font-size: 10px !important;
+                    line-height: 1.4 !important;
+                    display: block !important;
+                    margin-bottom: 0 !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section>
+            <mj-column padding="0" width="100%" background-color="#FFFFFF">
+                <mj-text css-class="subtitle">
+                    <span>
+                        Эти и другие модификации уже доступны в вашем репозитории
+                        в соответствующей ветке release-4.5.0.
+                        С полным перечнем изменений
+                        вы можете ознакомиться <a class="link" target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/patchnote450">
+                        на нашем сайте</a>
+                        или в <span class="highlighted-text">прикреплённом документе</span>.
+                    </span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
