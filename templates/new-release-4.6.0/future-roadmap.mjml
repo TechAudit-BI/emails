@@ -43,11 +43,12 @@
                 <mj-text css-class="subtitle">
                     <span>
                         Эти и другие модификации уже доступны в вашем репозитории
-                        в соответствующей ветке release-4.6.0.
-                        С полным перечнем изменений
-                        вы можете ознакомиться <a class="link" target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/patchnote450">
-                        на нашем сайте</a>
-                        или в <span class="highlighted-text">прикреплённом документе</span>.
+                        в соответствующей ветке последнего релиза release-4.6.0.
+                        С полным перечнем изменений вы можете ознакомиться на нашем сайте
+                        по следующим ссылкам:
+                        <a class="link" target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/patchnote450">4.5.0</a>
+                        и <a class="link" target="_blank" href="https://xn--e1aa2afcdic.xn--p1ai/patchnote460">4.6.0</a>,
+                        или в <span class="highlighted-text">прикреплённых документах</span>.
                     </span>
                 </mj-text>
             </mj-column>
